@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* fonts: font-bold, font-normal
+
+### Headings, Call-to-actions, Header Navigation
+font-family: "Raleway", sans-serif; 400, 700
+
+### Body
+font-family: "Open Sans", sans-serif; 400, 700 
+
+*/
+
+/* colors:
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%) - #1c2431
+- Dark Blue (main background): hsl(218, 28%, 13%) - #181f2a
+- Dark Blue (footer background): hsl(216, 53%, 9%) - #0b1523
+- Dark Blue (testimonials background): hsl(219, 30%, 18%) - #202a3c
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%) - #65e2d9
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%) - #339ecc
+- Light Red (error): hsl(0, 100%, 63%) - #ff4242
+
+### Neutral
+
+- White: hsl(0, 0%, 100%) - #ffffff
+
+*/
+
+nav ul li,
+section p,
+div p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+section button,
+div button {
+	font-weight: 700;
+}
+
+section h1,
+div h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+.custom-hover:hover {
+	background-color: #65e2d9;
+}
